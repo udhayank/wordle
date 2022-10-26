@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title h1 {
+    padding: 30px;
+    text-align: center; 
+    color: white;
+    letter-spacing: 5px;
+}
+
+.content {
+    
+}
+
+.grid {
+    padding: 60px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hidden-input {
+    height: 0;
+    width: 0;
+    border: 0;
+}
